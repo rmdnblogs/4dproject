@@ -4,6 +4,6 @@
   command = "echo 'No build command needed'"
 
 [build.environment]
-  PYTHON_VERSION = "3.13"  # Gunakan versi Python yang kompatibel
-  RUBY_VERSION = ""        # Nonaktifkan Ruby
-  GO_VERSION = ""          # Nonaktifkan Go
+  PYTHON_VERSION = "3.13"
+  RUBY_VERSION = ""
+  GO_VERSION = ""
