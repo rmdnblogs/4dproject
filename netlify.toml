@@ -1,9 +1,0 @@
-[build]
-  base = "frontend"  # Path dasar untuk build (sesuai dengan direktori frontend)
-  publish = "frontend"  # Direktori publik yang akan di-deploy
-  command = "echo 'No build command needed'"
-
-[build.environment]
-  PYTHON_VERSION = "3.13"
-  RUBY_VERSION = ""
-  GO_VERSION = ""
