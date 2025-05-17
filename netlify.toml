@@ -1,4 +1,9 @@
-[build] 
-base = "frontend" 
-publish = "frontend" 
-command = "echo 'No build command needed'" 
+[build]
+  base = "frontend"
+  publish = "frontend"
+  command = "echo 'No build command needed'"
+
+[build.environment]
+  PYTHON_VERSION = "3.13"
+  RUBY_VERSION = ""
+  GO_VERSION = ""
